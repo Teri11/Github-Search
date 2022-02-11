@@ -1,5 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Outfit:wght@200&family=Poppins&family=Roboto+Slab:wght@700&display=swap');
+
 *{
+  margin: 0px;
+  padding: 0px;
   background-color:#0D1117;
+  color: rgb(253, 252, 250);
+  text-align: center;
+  font-family: 'Mochiy Pop P One', sans-serif,'Outfit','Poppins' ;
+ 
 }
