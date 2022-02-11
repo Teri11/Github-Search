@@ -1,4 +1,4 @@
-# GithubSearch
+# Github Search
 A website  where users can enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories and also a person can also look for repositories.<br>on 11/02/2022.<br><strong>By Kubai Augustine Mweteri</strong>
 
 ## Description
@@ -19,7 +19,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabiliti
 
 ## Todo list
-1)Design.<br>2)Execute for business use.
+1)Design.<br>2)Execute for usage.
 
 ## Known Bugs
 <li>The Website works just fine,there are no bugs.</li>
