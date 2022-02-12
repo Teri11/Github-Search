@@ -4,13 +4,14 @@
     <div class="col-md-12">
      <div class="p-3">
        <div class="row p-4">
-        <div class="col-md-12">
-        <div  class="p-3">
-          <img src="{{me.avatarUrl}}" class="p-2" alt="profile-image">
+        <div class="col-md-13">
+        <div  class="p-3 ">
+          <img src="{{me.avatarUrl}}" class="p-2" alt="profile-image"><br>
+          <p id="img">{{me.name}}</p>
           <p id="img">{{me.userName}}</p>
-          <!-- {{user.name}} <br> <small>{{user.login}}</small>
-          <br> Followers <strong>{{user.followers}}</strong>  | Following <strong>{{user.following}}</strong>  -->
-       </div>
+          <p id="img">{{me.location}}</p>
+          <p id="img">Followers {{me.followers}}|Following {{me.following}}</p><br>
+        </div>
     </div>
   </div>
  </div>
