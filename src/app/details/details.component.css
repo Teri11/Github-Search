@@ -1,13 +1,10 @@
 
-#img{
-  width: 50px;
+
+.p-3{
   float:left;
-  /* margin-left:2rem; */
-  margin-top: 15rem;
-  margin-right:20rem;
+  
 }
 .p-2{
+  height:17rem;
   border-radius: 50%;
-  width: 200px;
-  float:left;
 }
