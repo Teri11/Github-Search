@@ -1,8 +1,9 @@
 # Github Search
-A website  where users can enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories and also a person can also look for repositories.<br>on 11/02/2022.<br><strong>By Kubai Augustine Mweteri</strong>
+This is an angular application that uses GitHub API to generate  users and their repositories from a GitHub account.<br>on 11/02/2022.<br><strong>By Kubai Augustine Mweteri</strong>
 
 ## Description
-This is an angular application that allows users to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.
+A website  where users can enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories and also a person can also look for repositories.
+
 
 ## Design
 This how the App appears:
