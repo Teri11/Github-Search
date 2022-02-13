@@ -5,7 +5,7 @@ A website  where users can enter a GitHub username into a form, submit it, and s
 This is an angular application that allows users to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.
 
 ## Design
-![alt text](https://github.com/Teri11/updownvotes/blob/master/src/assets/search.jpeg)
+![alt text](https://github.com/Teri11/Github-Search/blob/master/src/assets/search.jpeg)
 
 ## Setup/Installation Requirements
 1)Install the Visual studio code.<br>2)Git clone the repository.<br>3)Generate an api key and store it in the environment<br>4)Make sure the live server extension is installed.<br>4)Click on Go live
