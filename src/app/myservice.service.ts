@@ -20,7 +20,7 @@ export class MyserviceService {
   async myDetails(){
     try{
       
-   const response = await axios.get("https://api.github.com/users/Teri11",{headers:{"Authorization":environment.token}})
+   const response = await axios.get("https://api.github.com/users/Teri11")
    const myrepos= await axios.get("https://api.github.com/users/Teri11/repos")
 
    const allRepos=myrepos.data;
