@@ -1,3 +1,60 @@
+<app-search (Userquery)="getuserdetails($event)"></app-search>
+
+
+<!-- <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="p-3">
+        <div class="row p-4">
+          <div class="col-md-13">
+            <div class="p-3">
+              
+              <img src="{{ myUser1.avatarUrl }}" class="p-22" alt="profile-image" />
+              <br> 
+              <p id="img">{{ myUser1.name }}</p>
+              <p id="img">{{ myUser1.userName }}</p>
+              <p id="img">{{ myUser1.location }}</p>
+              <p id="img">
+                Followers {{ myUser1.followers }} | Following {{ myUser1.following }}
+              </p>
+              <br />
+              <hr>
+              <h1 class="line1">REPOSITORIES</h1> 
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
+<div class="container-fluid">
+  <div class="row">
+   <div *ngFor="let repo of myUserRepos" class="col-md-4 col-sm-6 content-card">
+      <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
+                  <div class="content">
+                    <h4 class="card-title">{{ repo.name }}</h4>
+                    <p class="description"style="color: white;">“{{ repo.description }}.”</p>
+                    <p>Language: {{ repo.language }}</p>
+                    <p>Created on: {{ repo.date|date }}</p>
+                    <button type="button"><a href="{{ repo.link }}"class="title-btn btn-warning"style="color:black; text-decoration:none;" >View on GitHub</a></button>
+               </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div><!-- end card -->
+
+
+
+
+
+
+      <!-- me -->
+
 <div class="container-fluid">
   <div class="row gx-4">
     <div class="col-md-12">
@@ -24,6 +81,9 @@
     </div>
   </div>
 </div>
+
+
+
 
 <div class="container-fluid">
   <div class="row">

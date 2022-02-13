@@ -34,6 +34,7 @@ export class MyserviceService {
 
     console.log(response)
     console.log(this.repos)
+    console.log(this.user)
     this.user.name=response.data.name;
     this.user.avatarUrl=response.data.avatar_url,
     this.user.userName=response.data.login,

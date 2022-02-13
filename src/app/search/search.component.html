@@ -1,8 +1,8 @@
 <div class="container-fluid">
   <br>
-  <form>
-    <input style="font-size: medium;" class="form-control me-2 bg-white text-black p-2" type="text" placeholder="Enter Github Username Here…" required>
-   <br>
+  <form #userform="ngForm" (ngSubmit)="getUser()">
+    <input style="font-size: medium;" class="form-control me-2 bg-white text-black p-2" type="text" name="search" [(ngModel)]="query.identity" #search="ngModel" placeholder="Enter Github Username Here…" required>
+  <br>
     <button class="btn btn-outline-success "  type="submit">Search</button>
 
   </form>
