@@ -31,11 +31,13 @@
 
 
 <div class="container-fluid">
-  <div class="row">
+   <div class="row">
    <div *ngFor="let repo of myUserRepos" class="col-md-4 col-sm-6 content-card">
-      <div class="card-big-shadow">
-              <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
+   <div class="card-big-shadow">
+        <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
+  
                   <div class="content">
+                   
                     <h4 class="card-title">{{ repo.name }}</h4>
                     <p class="description"style="color: white;">“{{ repo.description }}.”</p>
                     <p>Language: {{ repo.language }}</p>
@@ -72,8 +74,7 @@
                 Followers {{ me.followers }} | Following {{ me.following }}
               </p>
               <br />
-              <hr>
-              <h1 class="line1">REPOSITORIES</h1>
+             
             </div>
           </div>
         </div>
@@ -86,6 +87,8 @@
 
 
 <div class="container-fluid">
+  
+  <h1 class="line1">REPOSITORIES</h1>
   <div class="row">
       <div *ngFor="let repo of myrepos" class="col-md-4 col-sm-6 content-card">
           <div class="card-big-shadow">
