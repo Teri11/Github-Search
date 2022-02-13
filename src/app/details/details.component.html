@@ -33,9 +33,9 @@
                   <div class="content">
                     <h4 class="card-title">{{ repo.name }}</h4>
                     <p class="description"style="color: white;">“{{ repo.description }}.”</p>
-                    <p>{{ repo.language }}</p>
+                    <p>Language: {{ repo.language }}</p>
+                    <p>Created on: {{ repo.date|date }}</p>
                     <button type="button"><a href="{{ repo.link }}"class="title-btn btn-warning"style="color:black; text-decoration:none;" >View on GitHub</a></button>
-                    <!-- <h6 class="title"><a href="{{ repo.link }}"style="color: yellow; text-decoration:none;">View on GitHub</a></h6> -->
                </div>
               </div> 
             </div>
