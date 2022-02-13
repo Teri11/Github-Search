@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from './search/search.component';
 import { DetailsComponent } from './details/details.component';
+import { DateCountPipe } from './date-count.pipe';
 
 
 
@@ -15,6 +16,7 @@ import { DetailsComponent } from './details/details.component';
     HeaderComponent,
     SearchComponent,
     DetailsComponent,
+    DateCountPipe,
    
     
   ],
