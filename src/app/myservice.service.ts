@@ -14,7 +14,7 @@ export class MyserviceService {
 
   constructor( ) { 
    this.user=new User("","","","",0,0,0)
-   this.repo=new Repo("","","","")
+   this.repo=new Repo("","","","",0)
   }
 
   async myDetails(){
@@ -28,7 +28,7 @@ export class MyserviceService {
      if(!items.description){
        items.description="No Description"
      }
-     this.repos.push(new Repo(items.name,items.description,items.html_url,items.language))
+     this.repos.push(new Repo(items.name,items.description,items.html_url,items.language,items.created_at))
    }
 
 
