@@ -1,7 +1,7 @@
 <app-search (Userquery)="getuserdetails($event)"></app-search>
 
 
-<!-- <div class="container-fluid">
+ <!-- <div class="container-fluid">
   <div class="row">
     <div class="col-md-12">
       <div class="p-3">
@@ -9,7 +9,7 @@
           <div class="col-md-13">
             <div class="p-3">
               
-              <img src="{{ myUser1.avatarUrl }}" class="p-22" alt="profile-image" />
+              <img src="{{ myUser1.avatarUrl }}" class="p-2" alt="profile-image" />
               <br> 
               <p id="img">{{ myUser1.name }}</p>
               <p id="img">{{ myUser1.userName }}</p>
@@ -26,7 +26,7 @@
       </div>
     </div>
   </div>
-</div> -->
+</div>  -->
 
 
 
@@ -48,7 +48,8 @@
             </div>
           </div>
         </div>
-      </div><!-- end card -->
+      </div>
+      <!-- end card -->
 
 
 
@@ -97,7 +98,7 @@
                     <h4 class="card-title">{{ repo.name }}</h4>
                     <p class="description"style="color: white;">“{{ repo.description }}.”</p>
                     <p>Language: {{ repo.language }}</p>
-                    <p>Created on: {{ repo.date|date }}</p>
+                    <p>Created : {{ repo.date|dateCount }} days ago</p>
                     <button type="button"><a href="{{ repo.link }}"class="title-btn btn-warning"style="color:black; text-decoration:none;" >View on GitHub</a></button>
                </div>
               </div> 

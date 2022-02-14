@@ -22,7 +22,7 @@ export class GitHttpService {
 
    async userDetails(search:any){
     try{
-      const userresponse = await axios.get(`https://api.github.com/users/${search.identity}`,{headers:{"Authorization":environment.token}})
+      const userresponse = await axios.get(`https://api.github.com/users/${search.identity}`)
    const userrepos= await axios.get(`https://api.github.com/users/${search.identity}/repos`)
 
    const alluserRepos=userrepos.data;
